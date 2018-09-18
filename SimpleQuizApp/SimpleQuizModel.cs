@@ -12,7 +12,7 @@ namespace SimpleQuizApp
      * 
      * @author jrosato in Java, tgibbons in C#
      */
-    class SimpleQuizModel
+    public class SimpleQuizModel
     {
         private List<Question> myQuestions;
         private int currentQuestion; //index of the current question being displayed
