@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleQuizApplication
+namespace SimpleQuizApp
 {
     /**
      * SimpleQuizModel implements a list of quiz questions 
@@ -28,19 +28,17 @@ namespace SimpleQuizApplication
                     "What is the name of Jerry Lee Lewis's biggest solid gold hit?",
                     "Great Balls of Fire"));
             //ADD MORE EXAMPLE QUESTIONS HERE
-            /*
-            myQuestions.add(new ShortAnswerQuestion(
+            myQuestions.Add(new ShortAnswerQuestion(
                     "What is the Minnesota state bird?",
                     "Loon"));
-            myQuestions.add(new TrueFalseQuestion(
+            myQuestions.Add(new TrueFalseQuestion(
                    "St. Scholatsica is over 100 years old",
                    "True"));
             String[] possibleAnswers = { "Dave Vosen", "Jen Rosato", "Tom Buck", "Tom Gibbons" };
-            myQuestions.add(new MultipleChoiceQuestion(
+            myQuestions.Add(new MultipleChoiceQuestion(
                     "Which faculty member owns a number of bee hives?",
                     possibleAnswers,
                     2));
-            */
 
             //Shuffle the questions and set the starting one to zero
             // Collections.shuffle(myQuestions);            // C# does not have a clear shuffle option

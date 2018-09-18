@@ -1,4 +1,4 @@
-﻿namespace SimpleQuizApplication
+﻿namespace SimpleQuizApp
 {
     partial class Form1
     {

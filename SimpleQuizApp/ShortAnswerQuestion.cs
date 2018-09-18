@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimpleQuizApplication
+namespace SimpleQuizApp
 {
-    public class ShortAnswerQuestion : Question
+     class ShortAnswerQuestion : Question
     {
         private String answer;
 
